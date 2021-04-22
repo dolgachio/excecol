@@ -51,4 +51,8 @@ describe('getLetterColName', () => {
         });
     });
 
+    it('fail', () => {
+        expect(true).toBe(false);
+    });
+
 });
