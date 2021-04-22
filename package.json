@@ -9,6 +9,10 @@
     "src",
     "lib"
   ],
+  "exports": {
+    "require": "./lib/cjs/index.js",
+    "import": "./lib/esm/index.js"
+  },
   "scripts": {
     "clean": "rimraf lib",
     "test": "jest --watchAll",
