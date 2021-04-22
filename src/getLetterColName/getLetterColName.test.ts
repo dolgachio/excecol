@@ -50,5 +50,4 @@ describe('getLetterColName', () => {
             expect(sut(25, upperCase)).toBe('z');
         });
     });
-
 });
